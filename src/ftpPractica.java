@@ -79,7 +79,7 @@ public class ftpPractica {
 
     private static void changeClientSettings(FTPClient client) throws IOException {
         client.enterLocalPassiveMode();
-        client.setFileType(FTP.BINARY_FILE_TYPE, FTP.BINARY_FILE_TYPE);
+        client.setFileType(FTP.ASCII_FILE_TYPE, FTP.BINARY_FILE_TYPE);
         client.setFileTransferMode(FTP.BINARY_FILE_TYPE);
     }
 
