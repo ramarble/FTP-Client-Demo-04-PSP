@@ -152,7 +152,7 @@ public class ftpPractica {
             case 2: handleFileDownload(client);break;
             case 3: if (!anonymousMode) {handleFileUpload(client); break;}
             case 0: System.out.println("Saliendo del programa"); break;
-            default: System.out.println("Índice incorrecto, intentalo de nuevo");
+            default: System.out.println("Índice incorrecto, inténtalo de nuevo");
         }
     }
 
